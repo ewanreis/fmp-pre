@@ -15,11 +15,11 @@ C:/Users/ewanr/Documents/GitHub/fmp-pre/fmp-pre
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50980
+61442
 Successfully changed project path to: C:/Users/ewanr/Documents/GitHub/fmp-pre/fmp-pre
 C:/Users/ewanr/Documents/GitHub/fmp-pre/fmp-pre
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 81.46 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 83.55 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.18f1 (25bdc3efbc2d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.18f1/Editor/Data/Resources/UnitySubsystems
@@ -35,18 +35,18 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56536
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56072
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001159 seconds.
+Registered in 0.001320 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 87.25 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 87.66 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.064 seconds
+- Completed reload, in  1.054 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1064ms)
+	ReloadAssembly (1054ms)
 		BeginReloadAssembly (53ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
@@ -54,72 +54,72 @@ Domain Reload Profiling:
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		EndReloadAssembly (438ms)
-			LoadAssemblies (52ms)
+			LoadAssemblies (51ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (155ms)
+			SetupTypeCache (154ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (215ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (214ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (87ms)
+				RefreshPlugins (88ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (93ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
+				ProcessInitializeOnLoadAttributes (92ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004459 seconds.
+Registered in 0.010651 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\ewanr\Documents\GitHub\fmp-pre\fmp-pre\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\ewanr\Documents\GitHub\fmp-pre\fmp-pre\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.087 seconds
+- Completed reload, in  1.327 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1087ms)
-		BeginReloadAssembly (138ms)
+	ReloadAssembly (1328ms)
+		BeginReloadAssembly (172ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (897ms)
-			LoadAssemblies (80ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (1094ms)
+			LoadAssemblies (104ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (315ms)
+			SetupTypeCache (387ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (368ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (478ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (67ms)
-				ProcessInitializeOnLoadAttributes (284ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				ProcessInitializeOnLoadAttributes (394ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3107 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 116.0 MB.
-System memory in use after: 116.2 MB.
+Unloading 3108 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.6 MB.
+System memory in use after: 113.8 MB.
 
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3555.
-Total: 3.242000 ms (FindLiveObjects: 0.253900 ms CreateObjectMapping: 0.135300 ms MarkObjects: 2.783900 ms  DeleteObjects: 0.068200 ms)
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3553.
+Total: 2.871200 ms (FindLiveObjects: 0.250400 ms CreateObjectMapping: 0.132100 ms MarkObjects: 2.435700 ms  DeleteObjects: 0.051900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -133,282 +133,437 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/UMA/Content
-  artifactKey: Guid(d542d7a3b38e25c4ab222dad481f37dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content using Guid(d542d7a3b38e25c4ab222dad481f37dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79e1d8f410810a6b61aa2790a6b60946') in 0.009369 seconds 
+  path: Assets/Scripts/playerController.cs
+  artifactKey: Guid(5203c0515e7c9ac449453834eb4d0461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/playerController.cs using Guid(5203c0515e7c9ac449453834eb4d0461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '781c88fadd0d41642c5c0b4b3bb4c8b1') in 0.030370 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/UMA
-  artifactKey: Guid(f7ef89c26e43cca418844577bccccd4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA using Guid(f7ef89c26e43cca418844577bccccd4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8f9e12d65eb7645ad3854f5537eb9be') in 0.006906 seconds 
+  Time since last request: 0.000198 seconds.
+  path: Assets/Packages/FreeTestCharacterAsuna/FBX/Animations/FemaleRigAvatarMask.mask
+  artifactKey: Guid(e6105c011b437544ea0f2687cc147bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/FreeTestCharacterAsuna/FBX/Animations/FemaleRigAvatarMask.mask using Guid(e6105c011b437544ea0f2687cc147bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '511cb129face08a329fe10ed74d63dfe') in 0.019783 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004189 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\ewanr\Documents\GitHub\fmp-pre\fmp-pre\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\ewanr\Documents\GitHub\fmp-pre\fmp-pre\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.995 seconds
+Domain Reload Profiling:
+	ReloadAssembly (996ms)
+		BeginReloadAssembly (112ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (832ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (304ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (324ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (262ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3100 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.3 MB.
+System memory in use after: 113.6 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3555.
+Total: 2.811400 ms (FindLiveObjects: 0.228700 ms CreateObjectMapping: 0.133800 ms MarkObjects: 2.431300 ms  DeleteObjects: 0.016500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.606063 seconds.
-  path: Assets/UMA/Content/HumanFemale2
-  artifactKey: Guid(fcaf481ea2fa3774198065f39ac3311d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/HumanFemale2 using Guid(fcaf481ea2fa3774198065f39ac3311d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec08caffeed92f8559de93fcb8eed73e') in 0.006872 seconds 
+  Time since last request: 374.435746 seconds.
+  path: Assets/Scripts/playerController.cs
+  artifactKey: Guid(5203c0515e7c9ac449453834eb4d0461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/playerController.cs using Guid(5203c0515e7c9ac449453834eb4d0461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04d4961ba205d9ba381359578ddbe480') in 0.006012 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.855340 seconds.
-  path: Assets/UMA/Content/HumanFemale2/Athletic Body SSS
-  artifactKey: Guid(baf259361d36f414f8afd8ac40830802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/HumanFemale2/Athletic Body SSS using Guid(baf259361d36f414f8afd8ac40830802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7990f2b79280196469f4651d2bb46736') in 0.006543 seconds 
+  Time since last request: 30.880650 seconds.
+  path: Assets/Scripts/playerController.cs
+  artifactKey: Guid(5203c0515e7c9ac449453834eb4d0461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/playerController.cs using Guid(5203c0515e7c9ac449453834eb4d0461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '858bcb89de2e615e6627881d047d4cfa') in 0.002893 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004215 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\ewanr\Documents\GitHub\fmp-pre\fmp-pre\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\ewanr\Documents\GitHub\fmp-pre\fmp-pre\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.029 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1029ms)
+		BeginReloadAssembly (105ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (866ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (330ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (328ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (267ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3100 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.4 MB.
+System memory in use after: 113.6 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3557.
+Total: 2.894400 ms (FindLiveObjects: 0.252600 ms CreateObjectMapping: 0.132700 ms MarkObjects: 2.489800 ms  DeleteObjects: 0.018000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.006284 seconds.
-  path: Assets/UMA/Content/HumanFemale2/Athletic Body SSS/Athletic Underwear
-  artifactKey: Guid(887f65d503949cd4ca6e323e2fbad11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/HumanFemale2/Athletic Body SSS/Athletic Underwear using Guid(887f65d503949cd4ca6e323e2fbad11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16420f5372104f1551b4ad59dfdb2283') in 0.006676 seconds 
+  Time since last request: 21.285058 seconds.
+  path: Assets/Scripts/playerController.cs
+  artifactKey: Guid(5203c0515e7c9ac449453834eb4d0461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/playerController.cs using Guid(5203c0515e7c9ac449453834eb4d0461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62e42b94150b7be5bee77b5ef5cb63f4') in 0.005189 seconds 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.043835 seconds.
-  path: Assets/UMA/Content/HumanFemale2/Athletic Body SSS/Athletic Underwear/Fem Base 2.0 Athletic underwear.asset
-  artifactKey: Guid(36d66511e76fa3b4ba4c0d256e625364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/HumanFemale2/Athletic Body SSS/Athletic Underwear/Fem Base 2.0 Athletic underwear.asset using Guid(36d66511e76fa3b4ba4c0d256e625364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2884ae76d3b9947a175788d7276fffa1') in 0.021644 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004201 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\ewanr\Documents\GitHub\fmp-pre\fmp-pre\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\ewanr\Documents\GitHub\fmp-pre\fmp-pre\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.980 seconds
+Domain Reload Profiling:
+	ReloadAssembly (980ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (828ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (303ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (322ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (46ms)
+				ProcessInitializeOnLoadAttributes (262ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3100 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.4 MB.
+System memory in use after: 113.6 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3559.
+Total: 3.067700 ms (FindLiveObjects: 0.218800 ms CreateObjectMapping: 0.126500 ms MarkObjects: 2.703900 ms  DeleteObjects: 0.017500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000129 seconds.
-  path: Assets/UMA/Content/HumanFemale2/Athletic Body SSS/Athletic Underwear/None_Normal.png
-  artifactKey: Guid(b5c2e1d5fe421894490e854301d911f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/HumanFemale2/Athletic Body SSS/Athletic Underwear/None_Normal.png using Guid(b5c2e1d5fe421894490e854301d911f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de984840ddc64bdea588d2f98785b398') in 0.091375 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004276 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\ewanr\Documents\GitHub\fmp-pre\fmp-pre\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\ewanr\Documents\GitHub\fmp-pre\fmp-pre\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.036 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1036ms)
+		BeginReloadAssembly (108ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (875ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (322ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (330ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (267ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3100 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.4 MB.
+System memory in use after: 113.6 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3561.
+Total: 3.499700 ms (FindLiveObjects: 0.247300 ms CreateObjectMapping: 0.143100 ms MarkObjects: 3.087600 ms  DeleteObjects: 0.020500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000114 seconds.
-  path: Assets/UMA/Content/HumanFemale2/Athletic Body SSS/Athletic Underwear/None_AlbedoTransparency.png
-  artifactKey: Guid(c5df216a523fc8245960f39453db6862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/HumanFemale2/Athletic Body SSS/Athletic Underwear/None_AlbedoTransparency.png using Guid(c5df216a523fc8245960f39453db6862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7cea57ba7160fa305be48dce0c2987b') in 0.014191 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004225 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\ewanr\Documents\GitHub\fmp-pre\fmp-pre\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\ewanr\Documents\GitHub\fmp-pre\fmp-pre\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.996 seconds
+Domain Reload Profiling:
+	ReloadAssembly (996ms)
+		BeginReloadAssembly (101ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (842ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (308ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (327ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (264ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3100 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.4 MB.
+System memory in use after: 113.7 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3563.
+Total: 3.025900 ms (FindLiveObjects: 0.346800 ms CreateObjectMapping: 0.173600 ms MarkObjects: 2.484700 ms  DeleteObjects: 0.019600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/UMA/Content/HumanFemale2/Athletic Body SSS/Athletic Underwear/None_MetallicSmoothness.png
-  artifactKey: Guid(26c952490343b0d4d9f16ecdbc9b4a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/HumanFemale2/Athletic Body SSS/Athletic Underwear/None_MetallicSmoothness.png using Guid(26c952490343b0d4d9f16ecdbc9b4a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e66a41c334ded5f0b524ef5100366862') in 0.013122 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004346 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\ewanr\Documents\GitHub\fmp-pre\fmp-pre\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\ewanr\Documents\GitHub\fmp-pre\fmp-pre\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.010 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1010ms)
+		BeginReloadAssembly (116ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (838ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (303ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (322ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (47ms)
+				ProcessInitializeOnLoadAttributes (262ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3100 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.4 MB.
+System memory in use after: 113.7 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3565.
+Total: 3.174300 ms (FindLiveObjects: 0.268900 ms CreateObjectMapping: 0.137100 ms MarkObjects: 2.747500 ms  DeleteObjects: 0.019500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 1.348531 seconds.
-  path: Assets/UMA/Content/HumanFemale2/Athletic Body SSS/Athletic Underwear/Recipes
-  artifactKey: Guid(199065bc3025c0b438db6d7df750adbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/HumanFemale2/Athletic Body SSS/Athletic Underwear/Recipes using Guid(199065bc3025c0b438db6d7df750adbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cabc81fab7b30dec2c2e2d36898afa21') in 0.006620 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.050055 seconds.
-  path: Assets/UMA/Content/HumanFemale2/Athletic Body SSS/Athletic Underwear/Recipes/Athletic Bra and Underwear.asset
-  artifactKey: Guid(4fc4184ae52ff364194377d99f9d40d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/HumanFemale2/Athletic Body SSS/Athletic Underwear/Recipes/Athletic Bra and Underwear.asset using Guid(4fc4184ae52ff364194377d99f9d40d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a01c8f476fb02fb68927a25ba343b6f') in 0.006732 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000138 seconds.
-  path: Assets/UMA/Content/HumanFemale2/Athletic Body SSS/Athletic Underwear/Recipes/F_Base2_Hair.asset
-  artifactKey: Guid(192226f38efc92a488793d59a0ed2300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/HumanFemale2/Athletic Body SSS/Athletic Underwear/Recipes/F_Base2_Hair.asset using Guid(192226f38efc92a488793d59a0ed2300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5be5862dc72e86e9633cdbb64d7ff3b') in 0.006766 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.134575 seconds.
-  path: Assets/UMA/Content/HumanFemale2/Athletic Body SSS/FBX/F_Base2Athletic.fbx
-  artifactKey: Guid(37779e4f786338046b65719f24b2dec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/HumanFemale2/Athletic Body SSS/FBX/F_Base2Athletic.fbx using Guid(37779e4f786338046b65719f24b2dec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33fd04384698f343b18c96d2d899c7e7') in 0.237546 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/UMA/Content/HumanFemale2/Athletic Body SSS/Mecanim/Fem Base 2.0 Athletic Mecanim .fbx
-  artifactKey: Guid(9d23ca8c964115248b0331e81458831b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/HumanFemale2/Athletic Body SSS/Mecanim/Fem Base 2.0 Athletic Mecanim .fbx using Guid(9d23ca8c964115248b0331e81458831b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '547fabf867ce93ac7f49ce8edec6ba90') in 1.077289 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.120929 seconds.
-  path: Assets/UMA/Content/HumanFemale2/FBX/F_Base2.fbx
-  artifactKey: Guid(0f221b7179305114a8f7144fddb69391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/HumanFemale2/FBX/F_Base2.fbx using Guid(0f221b7179305114a8f7144fddb69391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b34ae45ef4368ba2303cfc3838432864') in 0.091471 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/UMA/Content/HumanFemale2/Normal Slots/F_Base2_Underwear/F_Base_2_0_Underwear.asset
-  artifactKey: Guid(c49d1253a99f3ed439e48e8a5040d80c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/HumanFemale2/Normal Slots/F_Base2_Underwear/F_Base_2_0_Underwear.asset using Guid(c49d1253a99f3ed439e48e8a5040d80c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1889e0c19a0e6ce3be772790dde07020') in 0.012970 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.383342 seconds.
-  path: Assets/UMA/Content/HumanFemale2/FBX/F_2 SEAM MESH.fbx
-  artifactKey: Guid(ed6ed81ca2686c9469e6315c001f1633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/HumanFemale2/FBX/F_2 SEAM MESH.fbx using Guid(ed6ed81ca2686c9469e6315c001f1633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2075306af03279c16dc3c895607c52bf') in 0.019394 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.545118 seconds.
-  path: Assets/UMA/Content/HumanFemale2/Normal Slots/F_Base2_Toenails/F_Base_2_0_Toe_nails.asset
-  artifactKey: Guid(c0242a8075357b344827612751e7cdf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/HumanFemale2/Normal Slots/F_Base2_Toenails/F_Base_2_0_Toe_nails.asset using Guid(c0242a8075357b344827612751e7cdf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96a527beaa626e976b6ca9b1aaa12b91') in 0.009897 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.307510 seconds.
-  path: Assets/UMA/Content/HumanFemale2/Normal Slots/F_Base2_Teeth/F_Base_2_0_Teeth.asset
-  artifactKey: Guid(19c887c939510584ab6643b35ab46cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/HumanFemale2/Normal Slots/F_Base2_Teeth/F_Base_2_0_Teeth.asset using Guid(19c887c939510584ab6643b35ab46cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d4789c40612b164c40f25fcfb6ca22b') in 0.010634 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.342025 seconds.
-  path: Assets/UMA/Content/HumanFemale2/Athletic Body SSS/Slots/F_Base 2.0_Athletic_Legs/F_Base_2_0_Legs.asset
-  artifactKey: Guid(de50b8022cae56245a619fa6c4e2ecf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/HumanFemale2/Athletic Body SSS/Slots/F_Base 2.0_Athletic_Legs/F_Base_2_0_Legs.asset using Guid(de50b8022cae56245a619fa6c4e2ecf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4898640e365931c7d0b5ee8c2a6f61e') in 0.013420 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.045933 seconds.
-  path: Assets/UMA/Content/HumanFemale2/Athletic Body SSS/FBX/F_Base2Athleticseammesh.fbx
-  artifactKey: Guid(e236f2bf3e29c7a468d3bcd8d0848880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/HumanFemale2/Athletic Body SSS/FBX/F_Base2Athleticseammesh.fbx using Guid(e236f2bf3e29c7a468d3bcd8d0848880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '098a993ad621ebddffa3b12e8d121dfb') in 0.026716 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/UMA/Content/HumanFemale2/SSS/F_Base2_Head SSS/F_Base_2_0_Head SSS.asset
-  artifactKey: Guid(d3b36a76f1c26be4bba2ec6b4781e37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/HumanFemale2/SSS/F_Base2_Head SSS/F_Base_2_0_Head SSS.asset using Guid(d3b36a76f1c26be4bba2ec6b4781e37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8534161ec787866919ab0285851371ca') in 0.020353 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.294024 seconds.
-  path: Assets/UMA/Content/HumanFemale2/Normal Slots/F_Base2_Head/F_Base_2_0_Head.asset
-  artifactKey: Guid(b5f887233f1466b48b72634d63e2a885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/HumanFemale2/Normal Slots/F_Base2_Head/F_Base_2_0_Head.asset using Guid(b5f887233f1466b48b72634d63e2a885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80024749563145d326198a8208952b9e') in 0.019629 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.354809 seconds.
-  path: Assets/UMA/Content/HumanFemale2/Athletic Body SSS/Slots/F_Base 2.0_Athletic_Hands/F_Base_2_0_Hands.asset
-  artifactKey: Guid(7da7a033d1a816c4b8db205e3b800623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/HumanFemale2/Athletic Body SSS/Slots/F_Base 2.0_Athletic_Hands/F_Base_2_0_Hands.asset using Guid(7da7a033d1a816c4b8db205e3b800623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04dc08cfdf0acf821e5ebb3089f3dc39') in 0.025215 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.371340 seconds.
-  path: Assets/UMA/Content/HumanFemale2/Normal Slots/F_Base2_Fingernails/F_Base_2_0_Fingernails.asset
-  artifactKey: Guid(c75b3557d29152541936d6fe4dd96edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/HumanFemale2/Normal Slots/F_Base2_Fingernails/F_Base_2_0_Fingernails.asset using Guid(c75b3557d29152541936d6fe4dd96edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93d5dd67edeeff0d627b561f61c9edcd') in 0.009782 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.389619 seconds.
-  path: Assets/UMA/Content/HumanFemale2/Athletic Body SSS/Slots/F_Base 2.0_Athletic_Feet/F_Base_2_0_Feet.asset
-  artifactKey: Guid(3bb5b4b0b434e79468d9cc6f65177d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/HumanFemale2/Athletic Body SSS/Slots/F_Base 2.0_Athletic_Feet/F_Base_2_0_Feet.asset using Guid(3bb5b4b0b434e79468d9cc6f65177d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f02f9609e8630f526f7b3f4af702db68') in 0.011158 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.735924 seconds.
-  path: Assets/UMA/Content/HumanFemale2/Normal Slots/F_Base2_Bra/F_Base_2_0_Bra.asset
-  artifactKey: Guid(00f7909f6a6e0084692557ced43dea9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/HumanFemale2/Normal Slots/F_Base2_Bra/F_Base_2_0_Bra.asset using Guid(00f7909f6a6e0084692557ced43dea9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bec67088b90c123abec805e80e455726') in 0.011948 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.280926 seconds.
-  path: Assets/UMA/Content/HumanFemale2/Normal Slots/F_Base2_Torso/F_Base2_Torso.asset
-  artifactKey: Guid(5fe30d889b704be4ca73bbfdcfc463c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/HumanFemale2/Normal Slots/F_Base2_Torso/F_Base2_Torso.asset using Guid(5fe30d889b704be4ca73bbfdcfc463c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '140a6cfb7e084e776b97d492f2dba6c3') in 0.015113 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/UMA/Content/HumanFemale2/SSS/F_Base2_Torso SSS/F_Base2_Torso.asset
-  artifactKey: Guid(8d1e679c17a700a4bb69035588abd9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/HumanFemale2/SSS/F_Base2_Torso SSS/F_Base2_Torso.asset using Guid(8d1e679c17a700a4bb69035588abd9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0455d3aab5c6a90910bb735e3bde2ed4') in 0.011123 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.053137 seconds.
-  path: Assets/UMA/Content/HumanFemale2/Normal Slots/F_Base2_Mouth/F_Base2_Mouth.asset
-  artifactKey: Guid(9ba0910c45c51fc46ad57a706019212c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/HumanFemale2/Normal Slots/F_Base2_Mouth/F_Base2_Mouth.asset using Guid(9ba0910c45c51fc46ad57a706019212c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a25bbc5aa1c9ef202800e9f338da92d') in 0.012135 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/UMA/Content/HumanFemale2/Normal Slots/F_Base2_Tongue/F_Base2_Tongue.asset
-  artifactKey: Guid(2b55a7b5d25eed744a0c62d704af420f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/HumanFemale2/Normal Slots/F_Base2_Tongue/F_Base2_Tongue.asset using Guid(2b55a7b5d25eed744a0c62d704af420f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4018cf1c1ca72d0469d5a58d993f695c') in 0.011045 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/UMA/Content/HumanFemale2/Normal Slots/F_Base2_Legs/F_Base2_Legs.asset
-  artifactKey: Guid(95acd2944a76e42458a91aa6200f4d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/HumanFemale2/Normal Slots/F_Base2_Legs/F_Base2_Legs.asset using Guid(95acd2944a76e42458a91aa6200f4d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cae17242cd1279bb9c6517426e336841') in 0.012841 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/UMA/Content/HumanFemale2/SSS/F_Base2_Legs SSS/F_Base2_Legs.asset
-  artifactKey: Guid(8f4f3626a6fc71649bfe1f6ae47fb2f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/HumanFemale2/SSS/F_Base2_Legs SSS/F_Base2_Legs.asset using Guid(8f4f3626a6fc71649bfe1f6ae47fb2f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8a217285a94a6331561d93c803640da') in 0.008562 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.267974 seconds.
-  path: Assets/UMA/Content/HumanFemale2/SSS/F_Base2_Hands SSS/F_Base2_Hands.asset
-  artifactKey: Guid(e42a6623af3967c4580d7aaa6567b090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/HumanFemale2/SSS/F_Base2_Hands SSS/F_Base2_Hands.asset using Guid(e42a6623af3967c4580d7aaa6567b090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '853360c6dabb1c6860ecd6db5bc45bcd') in 0.012141 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/UMA/Content/HumanFemale2/Normal Slots/F_Base2_Hands/F_Base2_Hands.asset
-  artifactKey: Guid(88aeca221a9ddf84086cee23d8ed9355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/HumanFemale2/Normal Slots/F_Base2_Hands/F_Base2_Hands.asset using Guid(88aeca221a9ddf84086cee23d8ed9355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a13ce8c5f7dfb17b59f5383380c496a') in 0.007963 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.056038 seconds.
-  path: Assets/UMA/Content/HumanFemale2/Normal Slots/F_Base2_Feet/F_Base2_Feet.asset
-  artifactKey: Guid(2f6b7e62529078346bba10429c65b0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/HumanFemale2/Normal Slots/F_Base2_Feet/F_Base2_Feet.asset using Guid(2f6b7e62529078346bba10429c65b0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f546b95eafa751ec42c6303343a9daca') in 0.011640 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/UMA/Content/HumanFemale2/Normal Slots/F_Base2_Eyelashes/F_Base2_Eyelashes.asset
-  artifactKey: Guid(bab603af617a2ee438b2d908432937e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/HumanFemale2/Normal Slots/F_Base2_Eyelashes/F_Base2_Eyelashes.asset using Guid(bab603af617a2ee438b2d908432937e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eb9ed6ef6bccc756e4c80b241e1c930') in 0.010391 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/UMA/Content/HumanFemale2/Normal Slots/F_Base2_Eyes/F_Base2_Eyes.asset
-  artifactKey: Guid(f27eaf5e0da3d8e41a43297204cde1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/HumanFemale2/Normal Slots/F_Base2_Eyes/F_Base2_Eyes.asset using Guid(f27eaf5e0da3d8e41a43297204cde1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '795a05cc67e1d9c45cb134ba7e8fb1cd') in 0.011408 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000115 seconds.
-  path: Assets/UMA/Content/HumanFemale2/SSS/F_Base2_Feet SSS/F_Base2_Feet.asset
-  artifactKey: Guid(8b79229890c49bd4db794b14fdb305f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/HumanFemale2/SSS/F_Base2_Feet SSS/F_Base2_Feet.asset using Guid(8b79229890c49bd4db794b14fdb305f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c65a9abc1969c1ab018095715161a93') in 0.008253 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.239001 seconds.
-  path: Assets/UMA/Content/HumanFemale2/Normal Slots/F_Base2_Eyebrows/F_Base2_Eyebrows.asset
-  artifactKey: Guid(4f1f1e60ebe3a78489441cc2da63c3fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/HumanFemale2/Normal Slots/F_Base2_Eyebrows/F_Base2_Eyebrows.asset using Guid(4f1f1e60ebe3a78489441cc2da63c3fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bae4707cf9bc826851d834e20cfa667a') in 0.011029 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.374772 seconds.
-  path: Assets/UMA/Content/HumanFemale2/Athletic Body SSS/Slots/F_Base 2.0_Athletic_Underwear/Athletic_underwear.asset
-  artifactKey: Guid(6a4d4ae438e3f6e47a696b1287b7740b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/HumanFemale2/Athletic Body SSS/Slots/F_Base 2.0_Athletic_Underwear/Athletic_underwear.asset using Guid(6a4d4ae438e3f6e47a696b1287b7740b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '412b87114aca58026b0a5fa459f7f45a') in 0.014498 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.030379 seconds.
-  path: Assets/UMA/Content/HumanFemale2/Athletic Body SSS/Slots/F_Base 2.0_Athletic_Bra/Athletic_Bra.asset
-  artifactKey: Guid(e60735977b73fbb47b166a37cb3bd895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UMA/Content/HumanFemale2/Athletic Body SSS/Slots/F_Base 2.0_Athletic_Bra/Athletic_Bra.asset using Guid(e60735977b73fbb47b166a37cb3bd895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3680a844fd5562257a77a08b74841e4a') in 0.014580 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 326.416583 seconds.
-  path: Assets/Packages
-  artifactKey: Guid(239bfbbc072ee7a4e9ddffc4ba64da9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Packages using Guid(239bfbbc072ee7a4e9ddffc4ba64da9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09388cb2ddd11e92082567044b4ee2dd') in 0.006402 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.081423 seconds.
-  path: Assets/Packages/Kevin Iglesias
-  artifactKey: Guid(84fbfcd44c057bd4da0fa5ebf58f91d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Packages/Kevin Iglesias using Guid(84fbfcd44c057bd4da0fa5ebf58f91d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b256eb92fc1a36a4a078d83c5c320a5e') in 0.006503 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.683596 seconds.
-  path: Assets/Packages/Kevin Iglesias/Basic Motions
-  artifactKey: Guid(2cb279c410b7a3e4dbf4aab42283effa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Packages/Kevin Iglesias/Basic Motions using Guid(2cb279c410b7a3e4dbf4aab42283effa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8e576ef97b26abf89e199dd7b892e27') in 0.006634 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.366047 seconds.
-  path: Assets/Packages/Kevin Iglesias/Basic Motions/Models
-  artifactKey: Guid(c310a300a0358f94f81e0eeb585d6cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Packages/Kevin Iglesias/Basic Motions/Models using Guid(c310a300a0358f94f81e0eeb585d6cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81fc63e724983ddebb1f8b0b1f1b464b') in 0.006675 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.070840 seconds.
-  path: Assets/Packages/Kevin Iglesias/Basic Motions/Models/BasicMotionsDummyModel.fbx
-  artifactKey: Guid(5917c0e93d180a842b61d1ebc62a195c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Packages/Kevin Iglesias/Basic Motions/Models/BasicMotionsDummyModel.fbx using Guid(5917c0e93d180a842b61d1ebc62a195c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14822644b9f76a7694d0c83324a33479') in 0.018975 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004233 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\ewanr\Documents\GitHub\fmp-pre\fmp-pre\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\ewanr\Documents\GitHub\fmp-pre\fmp-pre\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.011 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1012ms)
+		BeginReloadAssembly (112ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (845ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (314ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (323ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (47ms)
+				ProcessInitializeOnLoadAttributes (262ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3100 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.4 MB.
+System memory in use after: 113.7 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3567.
+Total: 3.154200 ms (FindLiveObjects: 0.249500 ms CreateObjectMapping: 0.118500 ms MarkObjects: 2.768400 ms  DeleteObjects: 0.017000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
