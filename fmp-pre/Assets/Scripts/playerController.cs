@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 public class playerController : MonoBehaviour
-{   public float speed = 6f, turnSmoothTime = 0.01f, jumpHeight = 2f, sprintSpeed = 15f, groundDistance = 0.4f, horizontal, vertical;
+{   public float speed = 6f, turnSmoothTime = 0.01f, jumpHeight = 2f, groundDistance = 0.4f, horizontal, vertical;
     public CharacterController controller;
     public Transform cam, GroundCheck;
     public LayerMask GroundMask;
