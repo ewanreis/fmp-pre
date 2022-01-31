@@ -142,3 +142,4 @@ Received Import Request.
   path: Assets/Packages/Sprites/knight-sketch.png
   artifactKey: Guid(50f1684446725ad46a8b48bd472ecc0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Packages/Sprites/knight-sketch.png using Guid(50f1684446725ad46a8b48bd472ecc0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b5dd739bd40dc9ddcbd02df465d95b9') in 0.034365 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
