@@ -12,6 +12,7 @@ public class playerController : MonoBehaviour
     Animator anim;
     void Start() {
         anim = GetComponent<Animator>();
+        Cursor.lockState = CursorLockMode.Locked;
     }
     void Update() {
         StateChecker();
