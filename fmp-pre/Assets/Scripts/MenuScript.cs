@@ -4,6 +4,11 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class MenuScript : MonoBehaviour
 {
+    public GameObject mainMenu, settingsMenu;
+    void Start()
+    {
+        settingsMenu.SetActive(false);
+    }
     public void StartGame()
     {
         SceneManager.LoadScene("SampleScene");
