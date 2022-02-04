@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 public class playerController : MonoBehaviour
-{   public float speed = 6f, turnSmoothTime = 0.01f, jumpHeight = 2f, groundDistance = 0.4f, horizontal, vertical;
+{   public float speed = 6f, turnSmoothTime = 0.01f, jumpHeight = 2f, groundDistance = 0.4f, horizontal, vertical,playerTurn;
     public CharacterController controller;
     public Transform cam, GroundCheck;
     public LayerMask GroundMask;
@@ -18,6 +18,7 @@ public class playerController : MonoBehaviour
     void Update() => StateChecker();
     void FixedUpdate() 
     {
+        playerTurn += Input.GetAxis("Mouse X") * 10;
         horizontal = Input.GetAxisRaw("Horizontal");
         vertical = Input.GetAxisRaw("Vertical");
         Vector3 direction = new Vector3(horizontal, 0, vertical).normalized, moveDirection;
@@ -25,6 +26,7 @@ public class playerController : MonoBehaviour
         velocity.y = IsGrounded == true && velocity.y < 0 ? -2f : velocity.y;
         velocity.y = Input.GetButtonDown("Jump") && IsGrounded ? Mathf.Sqrt(jumpHeight * -2f * Gravity) : velocity.y;
         velocity.y += Gravity * Time.deltaTime;
+        transform.localRotation = Quaternion.Euler(0,playerTurn,0);
         if (direction.magnitude >= 0.1f) 
         {
             targetAngle = Mathf.Atan2(direction.x,direction.z) * Mathf.Rad2Deg + cam.eulerAngles.y;
