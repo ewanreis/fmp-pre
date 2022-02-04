@@ -10,14 +10,14 @@ public class playerController : MonoBehaviour
     float Gravity = -10f , turnSmoothVelocity, targetAngle, angle;
     Vector3 velocity;
     Animator anim;
-    void Start() {
+    void Start() 
+    {
         anim = GetComponent<Animator>();
         Cursor.lockState = CursorLockMode.Locked;
     }
-    void Update() {
-        StateChecker();
-    }
-    void FixedUpdate() {
+    void Update() => StateChecker();
+    void FixedUpdate() 
+    {
         horizontal = Input.GetAxisRaw("Horizontal");
         vertical = Input.GetAxisRaw("Vertical");
         Vector3 direction = new Vector3(horizontal, 0, vertical).normalized, moveDirection;
@@ -25,7 +25,8 @@ public class playerController : MonoBehaviour
         velocity.y = IsGrounded == true && velocity.y < 0 ? -2f : velocity.y;
         velocity.y = Input.GetButtonDown("Jump") && IsGrounded ? Mathf.Sqrt(jumpHeight * -2f * Gravity) : velocity.y;
         velocity.y += Gravity * Time.deltaTime;
-        if (direction.magnitude >= 0.1f) {
+        if (direction.magnitude >= 0.1f) 
+        {
             targetAngle = Mathf.Atan2(direction.x,direction.z) * Mathf.Rad2Deg + cam.eulerAngles.y;
             angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnSmoothVelocity, turnSmoothTime);
             transform.rotation = Quaternion.Euler(0f,angle, 0f);
