@@ -1432,3 +1432,4 @@ Received Import Request.
   path: Assets/Packages/Ghost Ball.vfx
   artifactKey: Guid(a9e88c612764acf4b9ed766a68ceb95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Packages/Ghost Ball.vfx using Guid(a9e88c612764acf4b9ed766a68ceb95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '164a7cf4ab224819331703909e035217') in 0.004142 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
