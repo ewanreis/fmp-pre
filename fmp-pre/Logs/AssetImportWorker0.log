@@ -542,3 +542,4 @@ Received Import Request.
   path: Assets/Packages/Souls.vfx
   artifactKey: Guid(8f42cccaa34a4c54e9489817b007457e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Packages/Souls.vfx using Guid(8f42cccaa34a4c54e9489817b007457e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0b33117fd037183da45610ce94f34f3') in 0.003568 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
