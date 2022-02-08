@@ -288,7 +288,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1421922628}
         m_TargetAssemblyTypeName: MenuScript, Assembly-CSharp
         m_MethodName: QuitGame
         m_Mode: 1
@@ -2131,6 +2131,7 @@ GameObject:
   - component: {fileID: 1121997051}
   - component: {fileID: 1121997050}
   - component: {fileID: 1121997049}
+  - component: {fileID: 1121997052}
   m_Layer: 5
   m_Name: NewGame
   m_TagString: Untagged
@@ -2251,6 +2252,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1121997047}
   m_CullTransparentMesh: 1
+--- !u!114 &1121997052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1121997047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1421922628}
+          m_TargetAssemblyTypeName: MenuScript, Assembly-CSharp
+          m_MethodName: StartHover
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1157267117
 GameObject:
   m_ObjectHideFlags: 0
@@ -2487,9 +2517,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 949c33e3c26b76e449045ed7fa54e0b3, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 0.143
+  m_Volume: 0.239
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -2731,6 +2761,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   settingsMenu: {fileID: 737759311}
+  clips:
+  - {fileID: 8300000, guid: 75c0ce03d83b38e40b747b899e48b15d, type: 3}
+  - {fileID: 8300000, guid: 1fc5184c77d34fd4abf153209d139e81, type: 3}
+  - {fileID: 8300000, guid: 96811c9489f9df0488bb4648269098b0, type: 3}
+  - {fileID: 8300000, guid: cb1f535e07b886641832231471d8e94d, type: 3}
+  - {fileID: 8300000, guid: 5f85bde62311df349b413f12d854c78e, type: 3}
+  - {fileID: 8300000, guid: 851d7d2298d5c2f4c980633724a37b57, type: 3}
+  - {fileID: 8300000, guid: e2dc8c5b92e36534da97ab45732c927b, type: 3}
+  - {fileID: 8300000, guid: 949c33e3c26b76e449045ed7fa54e0b3, type: 3}
+  - {fileID: 8300000, guid: 2e315ce2c6736124b8474fdbfe926a41, type: 3}
+  source: {fileID: 1212704374}
 --- !u!1 &1494286171
 GameObject:
   m_ObjectHideFlags: 0
@@ -3349,6 +3390,7 @@ GameObject:
   - component: {fileID: 2111162847}
   - component: {fileID: 2111162846}
   - component: {fileID: 2111162845}
+  - component: {fileID: 2111162848}
   m_Layer: 5
   m_Name: Continue
   m_TagString: Untagged
@@ -3422,7 +3464,7 @@ MonoBehaviour:
       - m_Target: {fileID: 1421922628}
         m_TargetAssemblyTypeName: MenuScript, Assembly-CSharp
         m_MethodName: ContinueGame
-        m_Mode: 3
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3469,6 +3511,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2111162843}
   m_CullTransparentMesh: 1
+--- !u!114 &2111162848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2111162843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1421922628}
+          m_TargetAssemblyTypeName: MenuScript, Assembly-CSharp
+          m_MethodName: ContinueHover
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &2121110582
 GameObject:
   m_ObjectHideFlags: 0
