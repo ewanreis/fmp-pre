@@ -68,14 +68,12 @@ public class MenuScript : MonoBehaviour
     }
 
     public void SetVolume(float volume) 
-    { 
+    {
         PlayerPrefs.SetFloat("playerMasterVolume", volume);
         audioMixer.SetFloat("masterVolume",volume);
     }
-    public void SetGraphicsPreset(int preset)
-    {
-        print(preset);
-    }
+
+    public void SetGraphicsPreset(int preset) => print(preset);
     public void SetFullscreen(bool isFullscreen) => Screen.fullScreen = isFullscreen;
     public void ContinueHover() => source.PlayOneShot(clips[(buttonAvailable) ? (int)Sounds.continueHover : (int)Sounds.hoverDeny]);
     public void StartHover() => source.PlayOneShot(clips[(int)Sounds.startHover]);

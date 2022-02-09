@@ -13,6 +13,8 @@ public class playerController : MonoBehaviour
     private float xRotation, turnSmoothVelocity, targetAngle, angle;
     private bool isGrounded;
 
+    void Start() => Cursor.lockState = CursorLockMode.Locked;
+
     void FixedUpdate()
     {
         #region Jumping
