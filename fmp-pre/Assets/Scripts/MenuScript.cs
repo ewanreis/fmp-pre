@@ -3,11 +3,11 @@ using UnityEngine.SceneManagement;
 public class MenuScript : MonoBehaviour
 {
     private bool buttonAvailable = true, isCreepy = false;
+    private int level = 1;
+
     public GameObject settingsMenu;
     public AudioClip[] clips;
     public AudioSource source;
-
-    private int level = 1;
 
     enum Sounds
     {
@@ -26,7 +26,7 @@ public class MenuScript : MonoBehaviour
     {
         settingsMenu.SetActive(false);
         Sounds music = (isCreepy) ? Sounds.menuMusic : Sounds.menuMusicCreepy;
-        source.PlayOneShot(clips[(int)music],0.2f);
+        source.PlayOneShot(clips[(int)music],0.05f);
     }
 
     public void ContinueGame() 
@@ -55,7 +55,7 @@ public class MenuScript : MonoBehaviour
 
     public void ContinueHover() => source.PlayOneShot(clips[(buttonAvailable) ? (int)Sounds.continueHover : (int)Sounds.hoverDeny]);
     public void StartHover() => source.PlayOneShot(clips[(int)Sounds.startHover]);
-    public void EndGame() => Application.Quit();
 
+    private void EndGame() => Application.Quit();
     private void LoadScene() => SceneManager.LoadScene(level); 
 }
