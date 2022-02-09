@@ -1,13 +1,21 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEngine.Audio;
 public class MenuScript : MonoBehaviour
 {
     private bool buttonAvailable = true, isCreepy = false;
-    private int level = 1;
+    private int level = 1, pIsFullscreen, pGraphicsPreset;
+    private float pMasterVolume;
 
+    public Slider volumeSlider;
     public GameObject settingsMenu;
+
     public AudioClip[] clips;
     public AudioSource source;
+    public AudioMixer audioMixer;
 
     enum Sounds
     {
@@ -19,14 +27,20 @@ public class MenuScript : MonoBehaviour
         startHover, // 5
         quitClick, // 6
         menuMusic, // 7
-        menuMusicCreepy // 8
+        menuMusicCreepy, // 8
+        genericClick
     }
 
     void Start() 
     {
+        pMasterVolume = PlayerPrefs.GetFloat("playerMasterVolume",0);
+        pIsFullscreen = PlayerPrefs.GetInt("playerFullscreen",0);
+        Screen.fullScreen = (pIsFullscreen == 0) ? false : true;
+        audioMixer.SetFloat("masterVolume",pMasterVolume);
+        volumeSlider.value = pMasterVolume;
         settingsMenu.SetActive(false);
-        Sounds music = (isCreepy) ? Sounds.menuMusic : Sounds.menuMusicCreepy;
-        source.PlayOneShot(clips[(int)music],0.05f);
+        Sounds music = (isCreepy) ? Sounds.menuMusicCreepy : Sounds.menuMusic;
+        source.PlayOneShot(clips[(int)music],0.2f);
     }
 
     public void ContinueGame() 
@@ -53,8 +67,19 @@ public class MenuScript : MonoBehaviour
         Invoke("EndGame", 1f);
     }
 
+    public void SetVolume(float volume) 
+    { 
+        PlayerPrefs.SetFloat("playerMasterVolume", volume);
+        audioMixer.SetFloat("masterVolume",volume);
+    }
+    public void SetGraphicsPreset(int preset)
+    {
+        print(preset);
+    }
+    public void SetFullscreen(bool isFullscreen) => Screen.fullScreen = isFullscreen;
     public void ContinueHover() => source.PlayOneShot(clips[(buttonAvailable) ? (int)Sounds.continueHover : (int)Sounds.hoverDeny]);
     public void StartHover() => source.PlayOneShot(clips[(int)Sounds.startHover]);
+    public void GenericClick() => source.PlayOneShot(clips[(int)Sounds.genericClick]);
 
     private void EndGame() => Application.Quit();
     private void LoadScene() => SceneManager.LoadScene(level); 

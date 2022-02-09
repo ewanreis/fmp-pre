@@ -21,10 +21,12 @@ public class playerController : MonoBehaviour
         if (Input.GetButtonDown("Jump") && isGrounded)
             velocity.y = Mathf.Sqrt(jumpHeight * -2 * gravity);
         #endregion
+
         #region Gravity
         velocity.y += gravity * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);
         #endregion
+
         #region Walking
         float horizontal = Input.GetAxisRaw("Horizontal"), vertical = Input.GetAxisRaw("Vertical");
         Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
@@ -43,8 +45,9 @@ public class playerController : MonoBehaviour
         xRotation -= mouseY;
         xRotation = Mathf.Clamp(xRotation, -90f, 90f);
         transform.localRotation = Quaternion.Euler(xRotation,0f,0f);
-        transform.rotation = Quaternion.LookRotation(dir);
+        //transform.rotation = Quaternion.LookRotation(dir);
         playerBody.Rotate(Vector3.up * mouseX);
         #endregion
+        
     }
 }
