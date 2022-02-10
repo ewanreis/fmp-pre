@@ -11,7 +11,7 @@ public class MenuScript : MonoBehaviour
     private float pMasterVolume;
 
     public Slider volumeSlider;
-    public GameObject settingsMenu;
+    public GameObject settingsMenu, howToPlayScreen;
 
     public AudioClip[] clips;
     public AudioSource source;
@@ -28,17 +28,19 @@ public class MenuScript : MonoBehaviour
         quitClick, // 6
         menuMusic, // 7
         menuMusicCreepy, // 8
-        genericClick
+        genericClick // 9
     }
 
     void Start() 
     {
+        Cursor.lockState = CursorLockMode.None;
         pMasterVolume = PlayerPrefs.GetFloat("playerMasterVolume",0);
         pIsFullscreen = PlayerPrefs.GetInt("playerFullscreen",0);
         Screen.fullScreen = (pIsFullscreen == 0) ? false : true;
         audioMixer.SetFloat("masterVolume",pMasterVolume);
         volumeSlider.value = pMasterVolume;
         settingsMenu.SetActive(false);
+        howToPlayScreen.SetActive(false);
         Sounds music = (isCreepy) ? Sounds.menuMusicCreepy : Sounds.menuMusic;
         source.PlayOneShot(clips[(int)music],0.2f);
     }
