@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.Audio;
 public class MenuScript : MonoBehaviour
 {
-    private bool buttonAvailable = true, isCreepy = false;
+    private bool buttonAvailable = true, isCreepy = false, isMusicOn = true;
     private int level = 1, pIsFullscreen, pGraphicsPreset;
     private float pMasterVolume;
 
@@ -44,7 +44,13 @@ public class MenuScript : MonoBehaviour
         Sounds music = (isCreepy) ? Sounds.menuMusicCreepy : Sounds.menuMusic;
         source.PlayOneShot(clips[(int)music],0.2f);
     }
-
+    public void ToggleMusic(bool isOn)
+    {
+        if (isOn == true)
+            source.PlayOneShot(clips[(int)Sounds.menuMusic]);
+        else
+            source.Stop();
+    }
     public void ContinueGame() 
     {
         if (buttonAvailable)

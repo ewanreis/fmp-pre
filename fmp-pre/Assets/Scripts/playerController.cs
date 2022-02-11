@@ -6,7 +6,7 @@ public class playerController : MonoBehaviour
     public CharacterController controller;
     public Transform cam, groundCheck, playerBody;
     public LayerMask groundMask;
-    public float speed = 6, gravity = -9.81f, jumpHeight = 3, turnSmoothTime = 0.1f, groundDistance = 0.4f, mouseSensitivity;
+    public float speed, gravity = -9.81f, jumpHeight = 3, turnSmoothTime = 0.1f, groundDistance = 0.4f, mouseSensitivity;
 
     private Vector2 mouseInput, movementInput;
     private Vector3 moveDir, velocity, direction;
@@ -31,7 +31,8 @@ public class playerController : MonoBehaviour
         #region Walking
         movementInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
         direction = new Vector3(movementInput.x, 0f, movementInput.y).normalized;
-        if(direction.magnitude >= 0.1f)
+        speed = (Input.GetKey(KeyCode.LeftShift) == true) ? 12 : 6;
+        if (direction.magnitude >= 0.1f)
         {
             targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + cam.eulerAngles.y;
             angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnSmoothVelocity, turnSmoothTime);
@@ -41,7 +42,7 @@ public class playerController : MonoBehaviour
         #endregion // Moves the player
 
         #region Turning
-        mouseInput = new Vector2(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y")) * mouseSensitivity * Time.deltaTime;
+        mouseInput = new Vector2(-Input.GetAxis("Mouse X"), -Input.GetAxis("Mouse Y")) * mouseSensitivity * Time.deltaTime;
         xRotation -= mouseInput.x;
         playerBody.transform.rotation = Quaternion.Euler(0, xRotation, 0);
         #endregion // Gets the input from the mouse and turns the player
